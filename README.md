@@ -4,7 +4,7 @@ This a login system that connects with Reqres API.
 
 Tecnologies used: React.js, Typescript, Axios, Vite and React Router
 
-#To install:# 
+# To install: # 
 
 Remember to install the dependeces:
 
