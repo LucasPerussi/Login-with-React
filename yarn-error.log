@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\PC_Perussi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D @types/react-router-dom
+
+PATH: 
+  D:\Oculus\Support\oculus-runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-17.0.2\bin;F:\INDPRG;F:\IND;F:\INDPRG\IND.exe;C:\Users\PC_Perussi\AppData\Local\Microsoft\WindowsApps;C:\Users\PC_Perussi\.dotnet\tools;C:\Users\PC_Perussi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC_Perussi\AppData\Local\GitHubDesktop\bin;C:\Users\PC_Perussi\AppData\Roaming\npm;c:\ctarts\bin;C:\indprg;C:\Program Files\PuTTY\;C:\Program Files\Git LFS;c:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\PC_Perussi\Desktop\vroom\vendor\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\PC_Perussi\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\PC_Perussi\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\PC_Perussi\AppData\Local\Microsoft\WindowsApps;C:\Users\PC_Perussi\.dotnet\tools;C:\Users\PC_Perussi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC_Perussi\AppData\Roaming\Composer\vendor\bin;C:\xampp\htdocs\vroom\vendor\bin;C:\MinGW\bin\;C:\Users\PC_Perussi\AppData\Roaming\npm;C:\Program Files\Java\jdk-11\;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\PC_Perussi\Documents\loginReact\loginReact\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "loginreact",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "antd": "^5.8.3",
+      "axios": "^1.4.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.15.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@typescript-eslint/eslint-plugin": "^6.0.0",
+      "@typescript-eslint/parser": "^6.0.0",
+      "@vitejs/plugin-react": "^4.0.3",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "typescript": "^5.0.2",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
