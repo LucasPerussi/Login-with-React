@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Login System (React and Typescript)
 
 This a login system that connects with Reqres API.
 
